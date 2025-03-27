@@ -47,7 +47,7 @@ export default function App() {
           //---------- inut field
         }
         <input
-          className="w-full p-2 border rounded mb-4"
+          className="p-2 border rounded mb-4"
           placeholder="Enter numbers"
           value={input}
           onChange={(e) => setInput(e.target.value)}
@@ -56,7 +56,7 @@ export default function App() {
           //---------- submit btn
         }
         <button
-          className="bg-blue-500 text-white px-4 py-2 rounded w-full hover:bg-blue-600"
+          className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600"
           onClick={handleCalculate}
         >
           Calculate
@@ -73,7 +73,7 @@ export default function App() {
           //---------- reset btn
         }
         <button
-          className="mt-4 bg-gray-500 text-white px-4 py-2 rounded w-full hover:bg-gray-600"
+          className="mt-4 bg-gray-500 text-white px-4 py-2 rounded hover:bg-gray-600"
           onClick={handleReset}
         >
           Reset

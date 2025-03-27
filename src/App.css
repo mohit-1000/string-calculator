@@ -35,6 +35,8 @@ body {
 
 .rounded-lg {
   border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .shadow-lg {
